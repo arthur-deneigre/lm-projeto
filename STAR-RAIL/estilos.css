@@ -1,13 +1,69 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family: 'Comfortaa';
+    font-family: "Comfortaa";
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
 
+.sobre {
+    padding-top: 1%;
+    padding-left: 20%;
+    width: 80%;
+}
 
-body{
-    
+.logo {
+    back;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-size: 20px;
+}
+
+
+.box {
+    border-radius: 10px;
+    background-color: #e9e9e9;
+}
+
+section{
+    padding-top: 30px;
+    padding-left: 10px;
+    display: inline-flex;
+}
+
+a{
+    padding: 1%;
+    width: 30%;
+}
+
+img{
+    width: 20%;
+    float: auto;
+    box-shadow: 10px 10px 10px rgb(2, 1, 48) ;
+}
+
+body {
+    background-image: url(img/Captura\ de\ tela\ 2023-05-25\ 162850.png);
+    background-size: 100%;
+    display: inline;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
 }
