@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+
+}
+
+body{
+    background-color: black;
+}
+.img {
+    margin: 20px 20px;
+    /* width: 1400px;  
+    height: 250px; */
+    position: relative;
+    min-width: 1440px;
+    min-height: 1024px;
+    background: url('../img/degrade2.png'), lightgray 50% / cover no-repeat;
+    background-size:100% ;
+    z-index: 2;
+}
+
+.menu p{
+margin_left:30px ;
+}
+
+
+.menu{
+    padding: 68px 0 0 5px;
+    z-index: 4;
+    background-image: url('../img/logo.png');
+    
+
+}
+header p{
+    color: #FFF;
+    font-family: Michroma;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 4;
+    float: none;
+
+}
+
+header h1{
+    color: #FFF;
+    font-family: Michroma;
+    font-size: 70px;
+    font-style: normal;
+    line-height: normal;
+    z-index: 4;
+}
+
+.menu-msg{
+    margin: 300px 0px 0px 150px;
+    width: 555px;
+    height: 188px;
+    flex-shrink: 0;
+    
+}
