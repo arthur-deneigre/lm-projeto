@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    color: #FFF;
+    font-family: Michroma;
+    font-size: 25px;
+    font-style: normal;
+
+}
+
+body{
+    background-color: black;
+}
+.fundo{
+
+    /* width: 1400px;  
+    height: 250px; */
+    position: relative;
+    min-width: 1440px;
+    min-height: 1024px;
+    background: url('../img/degrade2.png'), lightgray 50% / cover no-repeat;
+    background-size:100% ;
+    margin: 10px;
+    z-index: 2;
+}
+
+
+.menu{
+    z-index: 4;
+    margin-left:250px;
+    margin-top: -100px;
+    float: left;
+}
+
+.logo{
+    z-index: 5;
+    background-image: url('../img/logo.png');
+    background-size: 100%;
+    width: 100px;
+    height: 150px;
+    margin-left: 75px;
+}
+header p{
+    color: #FFF;
+    font-family: Michroma;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 4;
+    float: none;
+}
+
+header h1{
+    color: #FFF;
+    font-family: Michroma;
+    font-size: 70px;
+    font-style: normal;
+    line-height: normal;
+    z-index: 4;
+}
+
+.start-msg{
+    margin: 100px 0px 0px 150px;
+    width: 555px;
+    height: 188px;
+    flex-shrink: 0;
+    
+}
