@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>profile</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:wght@500&family=Irish+Grover&family=Keania+One&family=Michroma&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="images" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:wght@500&family=Irish+Grover&family=Keania+One&family=Michroma&display=swap"rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
 
         <div class="profile">
-            <img src="img/monochrome-of-pumpkin-logo-vector-5665013.jpg" alt="perfil">
+            <img src="img/logo1.jpg" alt="">
             <p>@scary_pumpkim</p>
         </div>
-        
-        <div id="botao">
-            <div class="btn"></div>
+
+        <div id="botao" onclick="mode()">
+            <div id="btn" class="btn"></div>
             <span></span>
         </div>
 
         <nav class="list">
             <ul>
-                <li>Meus Projetos</li>
-                <li>Meu Portifolio</li>
-                <li>Baixar Curriculo</li>
-                <li>Sobre</li>
+                <li><a href="">Meus Projetos</a></li>
+                <li><a href="">Meu Portifolio</a></li>
+                <li><a href="">Baixar Curriculo</a></li>
+                <li><a href="">Sobre</a></li>
             </ul>
+            <div class="icons">
+                <a href=""><i class='bx bxl-github'></i></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-linkedin-square'></i></a>
+            </div>
         </nav>
 
+
     </div>
-    
+
+    <script src="js/script.js"></script> 
 </body>
+
 </html>

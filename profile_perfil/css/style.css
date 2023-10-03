@@ -3,25 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: Irish Grover;
 }
 
 body {
     background-image: url(../img/abbr-claro.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
+
 
 .container {
     max-width: 600px;
-    margin: 60px auto 0px;
+    margin: 0 auto;
     padding: 0 25px;
-}
-
-/* perfil escuro*/
-
-.claro {
-    background-image: url(../img/abbr-escuro.png);
 }
 
 /*configurando perfil*/
@@ -32,30 +27,29 @@ body {
 
 .profile img {
     width: 200px;
-    margin-left: -30px;
+    /* margin-left: -30px; */
     border-radius: 100%;
 
 }
 
 .profile p {
     color: #FFF;
-    font-family: Irish Grover;
     font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
-    margin-left: -30px;
+    /* margin-left: -30px; */
 }
 
-.list ul{
+.list ul {
     /* background-color: rgba(rgba(255, 255, 255, 0.50)); */
-    
+
     position: relative;
     text-align: center;
-    margin-left: -30px;
+    /* margin-left: -30px; */
     margin-top: 10px;
 }
 
-.list li{
+.list li {
     color: #ffffffc1;
     font-family: Irish Grover;
     font-size: 20px;
@@ -67,19 +61,44 @@ body {
     border-radius: 10px;
 }
 
+.icons a {
+    color: #ff880052;
+    font-size: 60px;
+}
+
+.icons {
+    width: 200px;
+    height: 30px;
+    position: relative;
+    align-items: center;
+    margin: 100px 175px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 #botao {
     position: relative;
     width: 70px;
-    margin: 0 205px;
+    margin: 0 220px;
+
+    /* position: absolute; */
+}
+
+#btn{
+    left: 0;
+    transition: left 0.5s ease-in-out;
 }
 
 #botao div {
-    background-image: url(../img/ativa\ modo\ escuro.svg);
+    background-image: url(../img/icone1.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     width: 45px;
-    height: 44px;
+    height: 45px;
     z-index: 1;
     border-radius: 50%;
     border: 0;
@@ -102,4 +121,51 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
     border: 1px solid rgba(48, 48, 48, 0.60);
 
+}
+
+/* perfil escuro*/
+
+
+
+.escuro {
+    color: var(--text-color) !important;
+    background: var(--background);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.escuro .list li {
+    color: #000000c1;
+    font-family: Irish Grover;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: auto;
+    height: 30px;
+    background-color: rgba(147, 147, 147, 0.5);
+    border-radius: 10px;
+}
+
+.escuro .list ul {
+    /* background-color: rgba(rgba(255, 255, 255, 0.50)); */
+
+    position: relative;
+    text-align: center;
+    /* margin-left: -30px; */
+    margin-top: 10px;
+}
+
+.escuro #botao div {
+    background-image: url(../img/icone2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    z-index: 1;
+    border-radius: 50%;
+    border: 0;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
