@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    /* background-color: black; */
+}
+
+
+
+body{
+    background-image: url('../img/Tela_Inicial_desktop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    height: max-content;
+}
+
+
+header{
+    z-index: 1;
+    margin: 35px;
+    background-image: url('../img/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 129px;
+    height: 60px;
+}
