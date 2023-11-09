@@ -3,12 +3,38 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: Roboto;
+    color: #FFF;
+    font-style: normal;
+    line-height: normal;
     /* background-color: black; */
+    text-decoration-line: none;
 }
 
+h1 {
+    width: 381px;
+    height: 170px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-left: 52px;
+    margin-bottom: -40px;
+}
 
+h4 {
+    margin-left: 52px;
+    margin-bottom: 20px;
+    width: 311px;
+    height: 92px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+}
 
-body{
+body {
     background-image: url('../img/Tela_Inicial_desktop.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,13 +42,45 @@ body{
     height: max-content;
 }
 
-
-header{
+header {
     z-index: 1;
-    margin: 35px;
+    margin-top: 30px;
+    margin-left: 55px;
     background-image: url('../img/logo.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 129px;
-    height: 60px;
+    width: 180px;
+    height: 84px;
+}
+
+.botao {
+    margin-top: -25px;
+    position: relative;
+    width: 70px;
+    margin-left: 54px;
+    text-align: center;
+    
+}
+
+.botao a{
+    color: #F27706;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+#botao div {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 308px;
+    height: 50px;
+    border-radius: 8px;
+    z-index: 1;
+    border: 0;
+    padding: 10px;
+    top: 100%;
+    transform: translateY(-50%);
 }
