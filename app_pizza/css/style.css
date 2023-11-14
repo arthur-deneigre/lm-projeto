@@ -59,16 +59,16 @@ header {
     width: 70px;
     margin-left: 54px;
     text-align: center;
-    
+
 }
 
-.botao a{
+.botao a {
     color: #F27706;
-font-family: Roboto;
-font-size: 28px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
 }
 

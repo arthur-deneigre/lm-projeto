@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url('../img/Tela_Inicial_desktop.png');
+    background-image: url('../img/home/Tela_Home_desktop.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: max-content;
@@ -28,19 +28,105 @@ header {
     background-repeat: no-repeat;
     width: 180px;
     height: 84px;
+
+}
+
+.msg-oi {
+    padding-top: 40px;
+    width: 140px;
+    height: 5px;
+}
+
+header p {
+    margin-left: 200px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header a {
+    font-family: Roboto;
+    font-size: 20px;
 }
 
 section {
-    z-index: 2;
-    width: 450px;
-    height: 600px;
-    margin-top: -30px;
-    margin-left: 530px;
-    padding: 40px;
-    border-radius: 32px;
-    background: rgba(255, 107, 0, 0.75);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 1476px;
+    height: 150px;
+}
+section c{
+    font-size: 30px;
+}
+.catalogo-1{
+    background-color: black;
+    margin-left: 30px;
+    width: 1476px;
+    height: 170px;
+    margin-bottom: 10px;
+}
+.catalogo-2{
+    background-color: black;
+    margin-left: 30px;
+    width: 1476px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.catalogo-3{
+    background-color: black;
+    margin-left: 30px;
+    width: 1476px;
+    height: 120px;
+    margin-bottom: 2    0px;
+}
+
+
+.search {
+    margin-right: -1100px;
+    float: right;
+    width: 427px;
+    height: 54.419px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.search input {
+    width: 420px;
+    padding: 15px;
+    color: black;
+}
+
+.perfil {
+    margin-right: -1250px;
+    margin-top: -40px;
+    float: inline-end;
+    border-radius: 100px;
+    background-image: url('../img/home/Romulo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.categorias {
+    margin-top: 20px;
+    margin-left: 12px;
+    font-size: 20px;
+    margin-bottom: 120px;
+}
+
+.box-cate {
+    /* /* padding-left: 33px; */
+    padding-top: 13px;
     text-align: center;
+    margin: 19px;
+    float: inline-start;
+    background-color: rgb(193, 50, 50);
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
 }
 
 h1 {
@@ -107,7 +193,7 @@ p {
 }
 
 .login ::placeholder {
-    color:  #FFF;
+    color: #FFF;
 }
 
 input {
