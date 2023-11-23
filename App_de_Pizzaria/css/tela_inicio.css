@@ -1,0 +1,288 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #FF8A00;
+    height: 700px;
+    width: 1440px;
+
+}
+
+header {
+    min-height: 100px;
+
+}
+
+section .cat-1 {
+    align-items: center;
+    /* display: inline-flex;
+    width: 1445px;
+    height: 100px; */
+    float: left;
+    margin-top: 100px;
+}
+
+.cat-1 {
+    font-size: 18px;
+    /* align-content: center;    */
+    margin-left: 210px;
+    display: inline-flex;
+    width: 1145px;
+    height: 100px;
+    float: left;
+    /* margin-top: -300px; */
+}
+
+section .cat-2 {
+    align-items: center;
+    /* display: inline-flex;
+        width: 1445px;
+        height: 100px; */
+    float: left;
+    margin-top: 100px;
+}
+
+.cat-2 {
+    font-size: 18px;
+    margin-top: 80px;
+    /* align-content: center;    */
+    margin-left: 210px;
+    display: inline-flex;
+    width: 1145px;
+    height: 100px;
+    float: left;
+    /* margin-top: -300px; */
+}
+
+footer {
+    background-image: url(../img/bottom_thing.png);
+}
+
+.container {
+    max-width: 1200px;
+    max-height: 200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.cabecalho img {
+    width: 205px;
+    height: 130px;
+    position: relative;
+    right: 100px;
+    bottom: 30px;
+
+}
+
+.cabecalho h1 {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    right: 100px;
+    bottom: 20px;
+}
+
+.searchbar label input {
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+
+
+
+}
+
+.pesquisa {
+    background: url('../img/Vector_search.png');
+    background-repeat: no-repeat;
+    background-position: 360px;
+    position: relative;
+    left: 900px;
+    top: 20px;
+
+}
+
+.Margem img {
+
+    background-size: cover;
+    position: relative;
+    right: 100%;
+    left: 0;
+    margin: 0 auto;
+    /* height: 100vh; */
+    position: fixed;
+    width: 50px;
+    height: 1000px;
+}
+
+.bottombar img {
+    background: url('../img/bottom_thing.png');
+    top: 590px;
+    width: max-content;
+    height: 90px;
+}
+
+.Margem2 img {
+
+    background-size: cover;
+    /* position: relative; */
+    right: 100%;
+    left: 0;
+    float: right;
+    margin-top: -600px;
+    margin-left: 1490px;
+    /* height: 100vh; */
+    position: fixed;
+    width: 299px;
+    height: 1000px;
+}
+
+.item {
+    padding-top: 13px;
+    text-align: center;
+    margin: 9px 28.22px;
+    float: inline-start;
+    background-color: red;
+    width: 110px;
+    height: 110px;
+    border-radius: 8px;
+
+}
+
+.categorias {
+    margin-top: -25px;
+    align-items: center;
+    margin-left: 420px;
+
+}
+
+.categorias img {
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.pizza1 {
+    background-image: url(../img/pizza1.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 160px;
+
+}
+
+.pizza2 {
+    background-image: url(../img/pizza2.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 160px;
+
+}
+
+.pizza3 {
+    background-image: url(../img/pizza3.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 160px;
+
+}
+
+.pizza4 {
+    background-image: url(../img/pizza4.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 160px;
+
+}
+
+.pizza5 {
+    background-image: url(../img/pizza5.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 160px;
+
+}
+
+.pizza6 {
+    background-image: url(../img/pizza6.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 160px;
+
+}
+
+.cat-2 .shadow {
+    padding: 1px 0 0 10px;
+    margin-top: 73px;
+
+    z-index: 10;
+    border-radius: 0px 8px 0px 8px;
+    background: rgba(0, 0, 0, 0.55);
+    width: 220px;
+    height: 72px;
+}
+
+.cat-1 .shadow {
+    padding: 1px 0 0 10px;
+    margin-top: 73px;
+
+    z-index: 10;
+    border-radius: 0px 8px 0px 8px;
+    background: rgba(0, 0, 0, 0.55);
+    width: 220px;
+    height: 72px;
+}
+
+.preco {
+    text-align: center;
+    width: 80px;
+    height: 25px;
+    border-radius: 100px;
+    background-color: firebrick;
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+
+

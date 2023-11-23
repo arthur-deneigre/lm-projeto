@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    text-decoration-line: none;
+
+}
+
+/* section img{
+    margin-top: -8%;
+    width: 900px;
+    height: 100,0px;
+
+} */
+
+body {
+    background-image: url(../img/Frame\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    background-image: url(../img/WhatsApp\ Image\ 2023-10-31\ at\ 10.20\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+p {
+    margin: 10%;
+}
+
+.Menu {
+    background-image: url(../img/Tony-Pizzaria-31-10-2023\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 900px;
+    height: 225px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+h4 {
+    width: 700px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #FFE9BE;
+    font-family: Righteous;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 400px;
+}
+
+.text-box {
+    background-color: rgba(255, 0, 0, 0.5);
+    margin-left: 29%;
+    margin-top: 90px;
+    height: 50px;
+    width: 600px;
+
+}
+
+.text-box h3 {
+    color: #FFD88C;
+    font-family: Ribeye Marrow;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 645px;
+    height: 99px;
+    flex-shrink: 0;
+    margin-left: 50px;
+}
+
+.button {
+    position: relative;
+    width: 70px;
+    margin-left: 210px;
+    text-align: center;
+
+}
+
+#botao div {
+    background-color: #ff0000;
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    border-radius: 8px;
+    z-index: 1;
+    border: 0;
+    padding: 20px;
+    /* top: 100%; */
+
+}
