@@ -15,8 +15,8 @@ body {
     background-image: url('../img/Tela_Inicial_desktop.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: max-content;
-    height: max-content;
+    width: 100%;
+    height: 100vh;
 }
 
 header {
@@ -107,7 +107,7 @@ p {
 }
 
 .login ::placeholder {
-    color:  #FFF;
+    color: #FFF;
 }
 
 input {
@@ -149,4 +149,12 @@ input {
     padding: 10px;
     top: 100%;
     transform: translateY(-50%);
+}
+
+
+@media only screen and (max-width: 767px) {
+    body {
+        width: 100%;
+        height: 100vh;
+    }
 }
