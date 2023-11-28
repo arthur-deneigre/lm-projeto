@@ -18,6 +18,7 @@ body {
     width: 100%;
     height: 100vh;
     overflow: hidden;
+
 }
 
 header {
@@ -33,7 +34,7 @@ header {
 
 section {
     z-index: 2;
-    width: 450px;
+    width: 440px;
     height: 600px;
     margin-top: -30px;
     margin-left: 530px;
@@ -42,6 +43,7 @@ section {
     background: rgba(255, 107, 0, 0.75);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     text-align: center;
+    align-content: center;
 }
 
 h1 {
@@ -51,8 +53,8 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 347.626px;
-    height: 132.383px;
+    /* width: 347.626px; */
+    height: 132.383px; 
     flex-shrink: 0;
 }
 
@@ -70,55 +72,7 @@ h3 {
     line-height: normal;
 }
 
-.criar {
-    text-align: center;
-    margin-top: 80px;
-}
 
-p {
-    font-size: 10px;
-}
-
-.criar a {
-
-    font-size: 19px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.senha {
-    margin-top: 80px;
-}
-
-.login {
-    margin-top: 30px;
-}
-
-.login i {
-    font-size: 35px;
-}
-
-.linha {
-    background-color: #FFF;
-    width: 374px;
-    height: 0.1px;
-}
-
-.login ::placeholder {
-    color: #FFF;
-}
-
-input {
-    background-color: rgba(0, 0, 0, 0.01);
-    outline-style: none;
-    border: none;
-    width: 300px;
-    font-family: Roboto;
-    font-size: 20px;
-}
 
 .botao {
     margin-top: 50px;
@@ -151,6 +105,15 @@ input {
     top: 100%;
     transform: translateY(-50%);
 }
+.fotinha-perfil{
+    background-image: url(../img/home/Romulo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 36%;
+}
 
 
 @media only screen and (max-width: 767px) {
@@ -170,33 +133,6 @@ input {
 
     }
 
-    .linha {
-        background-color: #FFF;
-        width: 304px;
-        height: 0.1px;
-        /* margin-left:-30px ; */
-        margin-top: -20px;
-    }
-
-    .login {
-
-        width: 30px;
-    }
-
-    .login i {
-        text-align: left;
-        /* position: relative; */
-        /* font-size: 35px; */
-        /* margin-left: -60px; */
-        margin-right: 390px;
-    }
-
-    .login input{
-        margin-top: -30px;
-        margin-left: 35px;
-    }
-
-    .log{
-        margin-left: 30px;
-    }
+    
 }
+
