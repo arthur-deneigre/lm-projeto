@@ -1,5 +1,4 @@
-@media only screen and (min-width: 768px) {
-    * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -92,11 +91,6 @@ section h2 {
     height: 100px;
 }
 
-.categorias {
-    margin-top: 20px;
-    margin-left: 12px;
-    font-size: 20px;
-}
 
 h1 {
     color: #FFF;
@@ -114,12 +108,26 @@ h1 {
     /* /* padding-left: 33px; */
     padding-top: 13px;
     text-align: center;
-    margin: 9px 28.22px;
+    margin: 9px 18.22px;
     float: inline-start;
     background-color: rgb(193, 50, 50);
-    width: 110px;
+    width: 130px;
     height: 50px;
     border-radius: 8px;
+    /* padding-bottom: 23px; */
+    
+}
+
+.box-cate a{
+    padding-bottom: 23px;
+}
+
+.box-cate img{
+    margin-top: -5px;
+    margin-left:10px ;
+    float: inline-start;
+    width: 30px;
+    height: 30px;
 }
 
 h3 {
@@ -265,7 +273,7 @@ input {
     font-size: 16px;
 }
 
-.catalogo3 .msg-produto2 .preco{
+.catalogo3 .msg-produto2 .preco {
     color: rgb(255, 255, 255);
     font-size: 16px;
 }
@@ -275,7 +283,7 @@ input {
     font-size: 16px;
 }
 
-.catalogo3 .msg-produto .preco{
+.catalogo3 .msg-produto .preco {
     color: rgb(255, 255, 255);
     font-size: 16px;
 }
@@ -500,15 +508,104 @@ input {
     margin-bottom: 15px;
     margin-left: 320px;
 }
+
 /* fim img */
 
-
-    
+.categorias {
+    margin-top: 20px;
+    margin-left: 12px;
+    font-size: 20px;
 }
 
-@media only screen and (max-width: 767px) {
+.categorias2 {
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    .categorias {
+        margin-top: 20px;
+        margin-left: 12px;
+        font-size: 20px;
+        display: none;
+    }
+    
+    .categorias2 {
+        margin-top: 20px;
+        margin-left: 12px;
+        display: block;
+    }
+
     body {
-        background-color: #ff0000;
-        padding: 10px;
+        width: 100%;
+        height: 300vh;
+    }
+
+    header {
+        z-index: 1;
+        /* margin-top: 40px; */
+        margin-left: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 85px;
+        height: 40px;
+    }
+
+    .msg-oi {
+        text-align: center;
+        margin-left: 90px;
+        padding-top: 10px;
+        width: 140px;
+        height: 5px;
+        font-size: 12px;
+    }
+
+    .msg-oi a {
+        font-size: 16px;
+    }
+
+    .perfil {
+        margin-right: 0;
+        margin-left: 240px;
+        margin-top: -10px;
+        float: inline-start;
+        border-radius: 100px;
+        background-image: url('../img/home/Romulo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+    }
+
+    
+
+    .categorias {
+        margin: 0;
+    }
+
+    .box-cate {
+        /* /* padding-left: 33px; */
+        padding-top: 0px;
+
+        margin-top: 9px;
+        margin-right:-4px;
+        float: inline-start;
+
+        width: 30px;
+        height: 30px;
+        border-radius: 8px;
+    }
+
+    .box-cate a{
+        margin-top: -10px;
+        font-size: 14px;
+    }
+    
+    .box-cate img{
+        margin-top: 5px;
+        margin-left:7px ;
+        float: inline-start;
+        width: 19px;
+        height: 19px;
     }
 }
