@@ -23,7 +23,7 @@ btn.addEventListener('click', () => {
     if (movimentar) {
         btn.style.left = '0';
     } else {
-        btn.style.left = '55px'; // Ou a quantidade desejada de movimento
+        btn.style.left = '55px';
     }
     movimentar = !movimentar;
 });

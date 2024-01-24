@@ -6,34 +6,49 @@
     font-family: Michroma;
     font-size: 25px;
     font-style: normal;
-
 }
 
-body{
+body {
     background-color: black;
 }
-.fundo{
+
+.contact img{
+    margin-top:20px ;
+    margin-left:15px ;
+}
+
+.contact{
+    margin-top: 180px;
+    margin-left: 1385px;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #0031B0;    
+}
+
+.fundo {
 
     /* width: 1400px;  
     height: 250px; */
     position: relative;
     min-width: 1440px;
-    min-height: 1024px;
+    min-height: 727px;
     background: url('../img/degrade2.png'), lightgray 50% / cover no-repeat;
-    background-size:100% ;
+    background-size: 100%;
     margin: 10px;
     z-index: 2;
 }
 
 
-.menu{
+.menu {
     z-index: 4;
-    margin-left:250px;
+    margin-left: 250px;
     margin-top: -100px;
     float: left;
 }
 
-.logo{
+.logo {
     z-index: 5;
     background-image: url('../img/logo.png');
     background-size: 100%;
@@ -41,7 +56,8 @@ body{
     height: 150px;
     margin-left: 75px;
 }
-header p{
+
+header p {
     color: #FFF;
     font-family: Michroma;
     font-size: 25px;
@@ -52,7 +68,7 @@ header p{
     float: none;
 }
 
-header h1{
+header h1 {
     color: #FFF;
     font-family: Michroma;
     font-size: 70px;
@@ -61,10 +77,87 @@ header h1{
     z-index: 4;
 }
 
-.start-msg{
+.start-msg {
     margin: 100px 0px 0px 150px;
     width: 555px;
     height: 188px;
     flex-shrink: 0;
-    
+
+}
+
+section {
+    position: relative;
+    min-width: 1440px;
+    min-height: 727px;
+    background-color: #000343;
+    background-size: 100%;
+    margin: 10px;
+    z-index: 2;
+    font-family: Keania One;
+}
+
+section H1 {
+    color: #FFF;
+    font-family: Keania One;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section p {
+    color: #FFF;
+    font-family: Keania One;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.game-msg {
+    margin-left: 30px;
+    width: 387px;
+    height: 274px;
+    flex-shrink: 0;
+}
+
+.fundo-game{
+    margin-left: 1000px;
+    width: 353px;
+    height: 6   50px;
+    flex-shrink: 0;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(64, 0, 144, 0.00) 0%, #400090 50%, rgba(64, 0, 144, 0.00) 100%);
+}
+
+.game img{
+    margin-top: 50px;
+    width: 450px;
+    height: 450px;
+}
+
+.game {
+    margin-top: -200px;
+    margin-left: -200px;
+    width: 553px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.butao {
+    font-family:Inter+Tight;
+    margin-left: 89px;
+    width: 184px;
+    height: 64px;
+    border-radius: 20px;
+    background: #58BFB9;
+}
+
+.butao b{
+    margin-left: 6px;
+    color: #8C8C8C;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;    
 }
