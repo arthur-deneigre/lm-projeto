@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="D:/Ds- SESI/BANCO_DE_DADOS/_db-SQLlite/aluguel_carro/aluguel_carros.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="2991"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,10:maintb_veiculo"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="sqlite_sequence" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="95"/><column index="2" value="52"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="tb_Aluguel" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="102"/><column index="2" value="96"/><column index="3" value="98"/><column index="4" value="105"/><column index="5" value="87"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="tb_cliente" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="89"/><column index="2" value="119"/><column index="3" value="98"/><column index="4" value="86"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="tb_veiculo" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="86"/><column index="2" value="66"/><column index="3" value="52"/><column index="4" value="84"/><column index="5" value="120"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">-- Inserir dados na tabela - tb_Cliente
+
+INSERT INTO tb_Cliente (Nome, CNH, Telefone)
+VALUES
+    ('Pedro Almeida','1234567890', '7777-8888'),
+    ('Ronnald Souza','2345678901', '3333-2222'),
+    ('Carmen Slivan','3456789012', '5555-4444'),
+    ('Mariana Belte','4567890123', '2222-1111'),
+    ('Lana Ferreira','5678901234', '4444-3333'),
+    ('Ana da Seetau','6789012345', '8888-9999'),
+    ('Fabianna Dias','7890123456', '6666-7777'),
+    ('Beatriz Ramos','8901234567', '7777-2222');
+    
+
+------------------------------------------------------------------------------------
+
+-- Inserir dados na tabela - tb_Veiculo
+
+INSERT INTO tb_Veiculo (modelo, ano, placa, disponibilidade)
+VALUES
+    ('logan', '2015', 'AAA-1111', 'ALUGADO'),
+    ('classic', '2007', 'AAB-1211', 'DISPONIVEL'),
+    ('HB20', '2020', 'AAC-1231', 'DISPONIVEL'),
+    ('tesla', '2023', 'ABA-1234', 'ALUGADO'),
+    ('fusca', '1990', 'ABB-4123', 'DISPONIVEL'),
+    ('corola', '2016', 'ABC-4312', 'DISPONIVEL'),
+    ('buggati', '2022', 'ACA-4231', 'ALUGADO'),
+    ('ferrari', '2023', 'ACB-2134', 'ALUGADO');
+
+
+------------------------------------------------------------------------------------
+
+-- Inserir dados na tabela - tb_Aluguel
+
+INSERT INTO tb_Aluguel (data_inicio, data_fim)
+VALUES
+    ('2023-08-08', '2023-10-15'),
+    ('2023-07-25', '2023-08-05'),
+    ('2023-08-01', '2023-08-08'),
+    ('2023-03-20', '2023-11-30'),
+    ('2023-07-15', '2023-07-22'),
+    ('2023-08-05', '2023-08-12'),
+    ('2023-07-10', '2023-07-17'),
+    ('2023-07-28', '2023-08-11'),
+    ('2023-08-02', '2023-08-09'),
+    ('2023-07-18', '2023-07-25');
+</sql><current_tab id="0"/></tab_sql></sqlb_project>

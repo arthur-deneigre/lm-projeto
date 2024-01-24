@@ -1,0 +1,15 @@
+{
+    "Nome": "Arthur Bueno",
+    "Idade": 16,
+    "Matricula": "123456789",
+    "Email": "senai@email",
+
+    "endereco":{
+        "rua": "rua tal",
+        "bairro": "portal",
+        "numero": 23,
+        "complemento":true
+
+    }
+}
+
