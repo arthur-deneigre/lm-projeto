@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-style: none;
+    font-family: comfortaa;
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    background-color: aqua;
+    width: 98%;
+}
+
+/* .mini {
+    float: left;
+    width: 227px;
+    height: 34px;
+    flex-shrink: 0;
+    align-items: start;
+    background-color: black;
+    width: 900px;
+} */
+
+.logo {
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
+    /* margin-right: 150vh; */
+}
+
+.menu {
+    margin-top: 7px;
+    font-size: 18px;
+    margin-inline-start: 1000px;
+}
+
+.menu a {
+    margin-right: 25px;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(129, 124, 145), rgb(20, 0, 63));
+    background-attachment: fixed;
+}
+
+section {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.catalogo {
+    margin-top: 50px;
+    display: inline-flex;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.back {
+    padding: 20px;
+    background-color: aqua;
+    width: 250px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 0 rgb(0, 0, 0);
+}
+
+.text p {
+    font-size: 40px;
+}
+
+.text {
+    padding: 1px 0 0 10px;
+    margin-top: 177px;
+    z-index: 10;
+    border-radius: 0px 0px 8px 8px;
+    background: rgba(115, 126, 169, 0.55);
+    width: 240px;
+    height: 72px;
+
+}
+
+/* .search {
+    margin-inline-start: 800px;
+    width: 227px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.search input {
+    border: none;
+    width: 220px;
+    padding: 15px;
+    color: black;
+} */
+
+/* começo img */
+
+.img1 {
+    background-image: url(../img/sao_paulo.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img2 {
+    background-image: url(../img/sergipe.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img3 {
+    background-image: url(../img/maranhao.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img4 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img5 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img6 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img7 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img8 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img9 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img10 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img11 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img12 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img13 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img14 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img15 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img16 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img17 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img18 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img19 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img20 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img21 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img22 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img23 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img24 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img25 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img26 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img27 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.img28 {
+    background-image: url(../img/parana.png);
+    z-index: 1;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
